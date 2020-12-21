@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 80%;
+    margin: 0 10px 20px 100px;
+}
+
+.taxes-header h1 {
+    padding-top: 30px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    max-width: 150px;
+}
+
+.header-nav-list {
+    list-style: none;
+    display: flex;
+
+}
+
+.header-nav-list li {
+    padding: 10px;
+    font-weight: 600;
+    color: #575685;
+}
+
+.taxes-header h1 {
+    text-align: center;
+    background: linear-gradient(0deg, rgba(84,84,109,0.26981214849220936) 0%, rgba(84,84,109,1) 0%);
+    color: white;
+    min-height: 300px;
+    z-index: -1;
+}
+
+.taxes article {
+/* section article { */
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.taxes {
+    position: absolute;
+    top: 35%;
+    width: 80%;
+    margin: 0 10px 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #54546D;   
+}
+
+.apply-btn {
+    align-self: center;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    background: #9A5DC6;
+    padding: 15px 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+}
+
+.taxes-basics-footer {
+    background: linear-gradient(90deg, rgba(3,155,61,1) 0%, rgba(75,214,128,1) 100%);
+    border-radius: 0 0 5px 5px;
+    color: white;
+}
+
+.taxes-fund-footer {
+    background: linear-gradient(90deg, rgba(76,108,136,1) 0%, rgba(98,155,207,1) 100%);
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    /* justify-content: space-between; */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.taxes-fund-footer-first {
+    padding-right: 40px;
+    border-right: 2px solid white;
+}
+
+.taxes-fund-footer-second,
+.taxes-prof-footer-second {
+    padding-left: 40px;
+}
+
+.taxes-prof-footer {
+    background: linear-gradient(90deg, rgba(75,56,165,1) 0%, rgba(141,126,226,1) 100%);
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.taxes-prof-footer-first {
+    padding-right: 40px;
+    border-right: 1px solid white;
+}
+
+.info {
+    width: 80%;
+    margin: 250px 10px 20px 150px;
+    color: #54546D;   
+}
+
+.info h2,
+.finance-text h2 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.info p {
+    width: 90%;
+    font-size: 18px;
+}
+
+table {
+    width: 90%;
+    border: none;
+    margin-top: 50px;
+    line-height: 2.2em;
+    border-collapse: collapse;
+}
+
+.wodth {
+    width: 60%;
+}
+/* .wodth {
+    max-width: 60%;
+} */
+.odd {
+    background: #E6E6E6;
+}
+
+.even {
+    background: #F8F8F8;
+}
+
+.finance {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px 10px 20px 100px;
+    color: #54546D;   
+}
+
+.without-margin {
+    margin-top: 0;
+}
+.finance-img {
+    align-self: center;
+    padding-left: 50px;
+}
+
+.footer-footer {
+    text-align: center;
+    background: #54546D;
+    color: #8C8FA4;
+    margin-top: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
